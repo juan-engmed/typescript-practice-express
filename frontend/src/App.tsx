@@ -4,7 +4,7 @@ import User from './components/User';
 
 interface Iuser {
   name: string;
-  email: string;
+  email?: string;
 }
 
 function App() {
